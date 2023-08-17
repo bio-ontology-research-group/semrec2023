@@ -1,5 +1,31 @@
 # semrec2023
 
+This repository contains the code and models/embeddings for the Semantic Reasoning Evaluataion Challenge 2023.
+
+
+## Creating a virtual environment
+
+You can create an Anaconda virtual environment as follows:
+
+```
+conda env create -f environment.yml
+conda activate semrec
+```
+
+We use mOWL version 0.2.0 (not yet as PyPi package), which can be downloaded from 
+this [link](https://bio2vec.cbrc.kaust.edu.sa/data/mowl/mowl-borg-0.2.0.tar.gz). To install it:
+
+```
+pip install mowl-borg-0.2.0.tar.gz
+```
+
+## Embeddings/Models
+
+To access to the trained embeddings/models click in this [link](https://bio2vec.cbrc.kaust.edu.sa/data/mowl/semrec2023.tar.gz)
+
+After decompressing the file, copy all the contents under `use_cases/` into the folder `use_cases/` of this repository.
+
+# Adapting the data
 
 ## Adapting data formats for ORE datasets
 

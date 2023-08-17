@@ -1,0 +1,15 @@
+name: semrec
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - click
+  - openjdk==8.0.152
+  - pandas==1.5.2
+  - pip
+  - python==3.8.0
+  - pytorch==1.13.1
+  - rdflib==6.2.0
+  - tqdm
+  - pip:
+    - -r requirements.txt
